@@ -8,7 +8,7 @@
     try {
       $conn=new PDO("mysql:host=$host;dbname=$db",$user,$pass);
     } catch (MysqliError $e) {
-        $error=$e->get_error();
+        $error = $e->getMessage();
         echo $error;
     }
 ?>
