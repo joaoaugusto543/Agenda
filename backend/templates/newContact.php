@@ -25,7 +25,7 @@
         }
 
         if(!phoneValidation($phone)){
-            response(500,"Telefone inválido");
+            response(500,"Celular inválido");
         }
 
 
